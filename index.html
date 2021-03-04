@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninski formola</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row RowMain">
+            <div class="col-lg-3 col-md-4 px-5 d-flex justify-content-center align-items-center">
+                <div class="KnowDiv">
+                    <p>DO YOU KNOW?</p>
+                    <h3 class="my-3">Our skin color is determined by the amount of a pigment called melanin.</h3>
+                    <img src="./img/Untitled-2-01-01.jpg" class="quiz-bottle-img mb-3" alt="">
+                    <p>Formulating Day-Cream</p>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 border Q_Main px-0  ">
+                <div class="containerslide">
+                    <div class="Mainslide py-5 d-flex">
+                        <div class="slides slide1">
+                            <h2>Enter Your Name</h2>
+                            <form action="" class="col-md-5">
+                                <input type="text"
+                                    class="col-md-12 px-4 py-3 my-3 border border-light rounded-pill shadow font-weight-bold "
+                                    required name="Name" />
+                                <button class="btn btn-light px-5 rounded-pill ">Next</button>
+                            </form>
+                        </div>
+
+                        <div class="slides slide2">
+                            <h2>Enter Your Age</h2>
+
+                            <form action="" class="col-md-5">
+                                <input type="number"
+                                    class="col-md-12 px-4 py-3 my-3 border border-light rounded-pill shadow font-weight-bold "
+                                    required name="Age" />
+                                <button class="btn btn-light px-5 rounded-pill ">Next</button>
+                            </form>
+                        </div>
+
+                        <div class="slides slide3 ">
+                            <h2>What is Your Gender</h2>
+                            <form action="" class="col-md-5">
+                                <input type="text"
+                                    class="col-md-12 px-4 py-3 my-3 border border-light rounded-pill shadow font-weight-bold "
+                                    required placeholder="Male & Female" name="Gender" />
+                                <button class="btn btn-light px-5 rounded-pill ">Next</button>
+                            </form>
+                        </div>
+
+                        <div class="slides slide4 ">
+                            <h2>What is Your City</h2>
+                            <form action="" class="col-md-5">
+                                <input type="text"
+                                    class="col-md-12 px-4 py-3 my-3 border border-light rounded-pill shadow font-weight-bold "
+                                    required name="City" />
+                                <button class="btn btn-light px-5 rounded-pill ">Next</button>
+                            </form>
+                        </div>
+
+                        <div class="slides slide5 ">
+                            <h1>Ready For Next Questions</h1>
+                        </div>
+
+                        <!-- ///////////////////////////////// SECTION # 1 END ////////////////////////////////// -->
+
+                        <!-- ///////////////////////////////// SECTION # 2 START ////////////////////////////////// -->
+
+                        <div class="slides slide6 ">
+                            <h2 class="mb-3 text-center">What Is Your Skin <br> Type</h2>
+                            <input type="button" class="optbtn" data-value="Polyacrylate       Crosspolymer-6"
+                                value="Normal" />
+
+                            <input type="button" class="optbtn" data-value="Polyacrylate Crosspolymer-6"
+                                value="Combi" />
+
+                            <input type="button" class="optbtn" data-value="Propylen glycol" value="Dry" />
+
+                            <input type="button" class="optbtn" data-value="Argania spinosa kernel oil" value="Oily" />
+                        </div>
+
+                        <div class="slides slide7 ">
+                            <h2 class="mb-3 text-center">What Is Your Skin <br> Tone</h2>
+                            <input type="button" class="optbtn" data-value="Prickle Pear oil " value="Fain" />
+                            <input type="button" class="optbtn" data-value="Prickle Pear oil " value="Light" />
+                            <input type="button" class="optbtn" value="Medium" />
+                            <input type="button" class="optbtn" data-value="Aloe Vera" value="Rich" />
+                            <input type="button" class="optbtn" data-value="Aloe Vera" value="Tan" />
+                        </div>
+
+                        <div class="slides slide8 ">
+                            <h2 class="mb-3 text-center">Is Your Skin <br> Sensitive</h2>
+                            <input type="button" class="optbtn" data-value="Hv Apricot - Avocado" value="Yes" />
+                            <input type="button" class="optbtn" value="No" />
+                        </div>
+
+                        <div class="slides slide9 ">
+                            <h2 class="mb-3 text-center">Do You Have <br> Wrinkles</h2>
+                            <input type="button" class="optbtn" data-value="Acide Hyaluronique " value="Yes" />
+                            <input type="button" class="optbtn" value="No" />
+                        </div>
+
+                        <div class="slides slide10 ">
+                            <h2 class="mb-3 text-center">Do You Have <br> Dark Spots</h2>
+                            <input type="button" class="optbtn" data-value="Vitamine E - Tea tree" value="Yes" />
+                            <input type="button" class="optbtn" value="No" />
+                        </div>
+
+                        <div class="slides slide11 ">
+                            <h2 class="mb-3 text-center">Are You Prone To <br> Breakout</h2>
+                            <input type="button" class="optbtn" data-value="Cinnamon Extract " value="Yes" />
+                            <input type="button" class="optbtn" value="No" />
+                        </div>
+
+                        <div class="slides slide12 ">
+                            <h1>Ready For Next Questions</h1>
+                        </div>
+
+                        <!-- ///SECTION 3 HERE /////// -->
+
+
+
+                        <div class="slides slide13 ">
+                            <h2 class="mb-3 text-center">What Is Your Water <br> Intake?</h2>
+                            <input type="button" class="optbtn" value="A Lot" />
+                            <input type="button" class="optbtn" value="Not Enough" />
+                            <input type="button" class="optbtn" value="Middle" />
+                        </div>
+
+                        <!-- ///SMOKING HABIT -->
+
+                        <div class="slides slide14">
+                            <h2 class="mb-3 text-center">Smoking Habits?</h2>
+                            <input type="button" class="optbtn" value="Yes" />
+                            <input type="button" class="optbtn" value="No" />
+                            <input type="button" class="optbtn" value="Middle" />
+                        </div>
+
+
+                        <!-- ///FOOD HABIT//// -->
+                        <div class="slides slide15">
+                            <h2 class="mb-3 text-center">How Would You Describe <br> Your Habits?</h2>
+                            <input type="button" class="optbtn" value="Yes" />
+                            <input type="button" class="optbtn" value="No" />
+                            <input type="button" class="optbtn" value="Middle" />
+                        </div>
+
+
+                        <!-- //// EXCERISE ROUTINE -->
+                        <div class="slides slide16">
+                            <h2 class="mb-3 text-center">What Is Your Excerise <br> Routine?</h2>
+                            <input type="button" class="optbtn" value="Avg" />
+                            <input type="button" class="optbtn" value="Good" />
+                            <input type="button" class="optbtn" value="Not at All" />
+                        </div>
+
+
+                        <!-- //////SLEEPING -->
+
+                        <div class="slides slide17">
+                            <h2 class="mb-3 text-center">How Much Sleep Do <br> You Get?</h2>
+                            <input type="button" class="optbtn" value="MoreThan 8" />
+                            <input type="button" class="optbtn" value="1 to 6" />
+                            <input type="button" class="optbtn" value="6 to 8" />
+                        </div>
+
+                        <!-- ////// SKIN EXPOSURE -->
+
+                        <div class="slides slide18">
+                            <h2 class="mb-3 text-center">What Is Your Daily <br> Sun Exposure?</h2>
+                            <input type="button" class="optbtn" value="MoreThan 8" />
+                            <input type="button" class="optbtn" value="1 to 6" />
+                            <input type="button" class="optbtn" value="6 to 8" />
+                        </div>
+
+                        <!-- ////// Final Result -->
+
+                        <div class="slides slide19 ">
+                            <h1>Show Final Result</h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row FinalResult ">
+        <div class="col-md-6   ">
+            <h1>scrrolll div</h1>
+        </div>
+        <div class="col-md-6 ">
+            <h1>fixed div</h1>
+        </div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $(".FinalResult").hide();
+        let counter = 0
+        let counterfun = () => {
+            counter = counter + 1
+            if ((slidesarr[counter]) == ("-400") || (slidesarr[counter]) == ("-500") || (slidesarr[counter]) == ("-1100") || (slidesarr[counter]) == ("-1200")) {
+                $(".Mainslide").css({ "left": `${slidesarr[counter]}%` })
+            }
+            else {
+                $(".Mainslide").animate({ "left": `${slidesarr[counter]}%` }, 800)
+
+            }
+        }
+        let saveVal = {}
+        slidesarr = ["0", "-100", "-200", "-300", "-400", "-500", "-600", "-700", "-800", "-900", "-1000", "-1100", "-1200", "-1300", "-1400", "-1500", "-1600", "-1700", "-1800"]
+
+        ///////////////////// NAME ///////////////////////
+
+        $(".slide1>form").submit(function () {
+            event.preventDefault()
+            counterfun()
+            $(".slide1").animate({ opacity: "0.5" }, 100)
+            let name = $("input[name=Name]").val()
+            saveVal = { ...saveVal, name }
+        })
+        ///////////////////// AGE ///////////////////////
+        $(".slide2>form").submit(function () {
+            event.preventDefault()
+            counterfun()
+            $(".slide2").animate({ opacity: "0.5" }, 1000)
+            let age = $("input[name=Age]").val()
+            saveVal = { ...saveVal, age }
+        })
+
+        ///////////////////// GENDER ///////////////////////
+        $(".slide3>form").submit(function () {
+            event.preventDefault()
+            counterfun()
+            $(".slide3").animate({ opacity: "0.5" }, 1000)
+            let gender = $("input[name=Gender]").val()
+            saveVal = { ...saveVal, gender }
+
+        })
+
+        ///////////////////// CITY ///////////////////////
+        $(".slide4>form").submit(function () {
+            event.preventDefault()
+            counterfun()
+            let city = $("input[name=City]").val()
+            saveVal = { ...saveVal, city }
+
+            setTimeout(function () {
+                counterfun()
+            }, 3000)
+
+        })
+
+        ////////////////////////////// ANIMATION 5 /////////////////////////////
+
+        $(".slide6>.optbtn").click(function () {
+            let skin_type = $(this).attr("data-value")
+            counterfun()
+            $(".slide6").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, skin_type }
+            console.log(saveVal);
+        })
+
+        $(".slide7>.optbtn").click(function () {
+            let skin_tone = $(this).attr("data-value")
+            counterfun()
+            $(".slide7").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, skin_tone }
+        })
+
+        $(".slide8>.optbtn").click(function () {
+            let skin_sens = $(this).attr("data-value")
+            counterfun()
+            $(".slide8").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, skin_sens }
+        })
+
+        $(".slide9>.optbtn").click(function () {
+            let wrinkle = $(this).attr("data-value")
+            counterfun()
+            $(".slide9").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, wrinkle }
+        })
+
+        $(".slide10>.optbtn").click(function () {
+            let darkSpot = $(this).attr("data-value")
+            counterfun()
+            $(".slide10").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, darkSpot }
+        })
+
+        $(".slide11>.optbtn").click(function () {
+            let breakOut = $(this).attr("data-value")
+            counterfun()
+            // $(".slide11").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, breakOut }
+            console.log(saveVal);
+
+            setTimeout(function () {
+                counterfun()
+                // $(".slide12").animate({ opacity: "0.5" }, 1000)
+
+            }, 3000)
+
+        })
+
+        /////////SECTION 3 HERE //////
+
+        $(".slide13>.optbtn").click(function () {
+            let water_drink = $(this).attr("value")
+            counterfun()
+            $(".slide13").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, water_drink }
+            console.log(saveVal);
+
+        })
+
+        $(".slide14>.optbtn").click(function () {
+            let breakOut = $(this).attr("value")
+            counterfun()
+            $(".slide14").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, breakOut }
+            console.log(saveVal);
+
+        })
+
+        $(".slide15>.optbtn").click(function () {
+            let breakOut = $(this).attr("value")
+            counterfun()
+            $(".slide15").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, breakOut }
+            console.log(saveVal);
+
+        })
+
+        $(".slide16>.optbtn").click(function () {
+            let breakOut = $(this).attr("value")
+            counterfun()
+            $(".slide16").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, breakOut }
+            console.log(saveVal);
+
+        })
+
+        $(".slide17>.optbtn").click(function () {
+            let breakOut = $(this).attr("value")
+            counterfun()
+            $(".slide17").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, breakOut }
+            console.log(saveVal);
+
+        })
+
+
+        $(".slide18>.optbtn").click(function () {
+            let breakOut = $(this).attr("value")
+            // counterfun()
+            $(".slide18").animate({ opacity: "0.5" }, 1000)
+            saveVal = { ...saveVal, breakOut }
+            console.log(saveVal);
+            $(".RowMain").hide();
+            $(".FinalResult").show()
+        })
+
+    })
+
+</script>
+
+</html>
